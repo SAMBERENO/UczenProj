@@ -57,6 +57,10 @@ public class Uczen {
         return srednia;
     }
 
+    public boolean maOceny(){
+        return !oceny.isEmpty();
+    }
+
     public void postarzejSie(){
         this.wiek++;
     }
